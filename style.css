@@ -1,0 +1,82 @@
+.page {
+    width: 1205px;
+    height: 1030px;
+    border-style: groove;
+}
+.headerpart {
+    height: 200px;
+    width: 1200px;
+    border-style: groove;
+    background-color: rgb(240, 42, 16);
+    background-image:url("abc.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 1200px 200px;
+    
+}
+
+.linkspart {
+    width: 1200px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: rgb(226, 57, 6);
+    border-style: groove;
+       
+}
+.bodypart {
+    width: 1200px; 
+    height: 700px;
+    border-style: groove;
+    margin-top: 5px;
+
+}
+.bodypart .imagepart {
+    width: 960px;
+    height: 350px;
+    border-style: groove;
+    background-image: url("sgu\ \(1\).jpg");
+    background-repeat: no-repeat; 
+    display: inline-block;
+    background-size: 960px 350px;
+     
+}
+
+.linkspart a {
+    color: aqua;
+    text-decoration: none;
+  
+}
+div.a{
+    font-size: medium;
+}
+.linkspart a:hover {
+    background-color: rgb(245,296,257);
+    color: rgb(239, 241, 243);
+}
+.bodypart .newspart 
+{
+    height: 350px;
+    width: 220px;
+    border-style : groove;
+    float: right;
+    background-color:c2feff;
+}
+
+.bodypart .newspart h2 {
+    color: rgb(28, 34, 28);
+    margin-left: 20px;
+}
+.bodypart .newspart .news {
+    width: 220px;
+    height: 135px;
+    border-style: groove;
+}
+
+.footprint {
+    width: 1200px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: crimson;
+    border-style: groove;
+    color: aliceblue;
+
+}
